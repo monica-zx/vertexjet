@@ -21,7 +21,7 @@ module.exports = {
         accent: "#ff8906",
         white: "#fff",
         gold: "#A78E63",
-        darkblue: "#122031",
+        'darkblue': "#122031",
         ligherblue: "#1c2833",
       },
     },
