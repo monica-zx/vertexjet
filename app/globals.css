@@ -16,6 +16,9 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --dark-blue:var(--dark-blue);
+    --ligher-blue:var(--ligher-blue);
+    --gold-color:var(--gold-color);
 }
 
 @media (prefers-color-scheme: dark) {
