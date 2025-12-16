@@ -41,12 +41,8 @@ export default function Header() {
   }, []);
 
   return (
-    <header className="border-b shadow-sm bg-black">
-      <div className="container mx-auto ">
-        <div className="px-2.5 flex items-center justify-between py-2.5"> 
+    <footer className="border-b shadow-sm bg-black">
         <FooterMenu data={footer} logo={logo}/>
-        </div>
-      </div>
-    </header>
+    </footer>
   );
 }
