@@ -1,10 +1,15 @@
 @import "tailwindcss";
 
+
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
   --font-sans: "Public Sans", sans-serif;
   --prata-regular: "Prata", serif;
+  --dark-blue:#122031;
+    --ligher-blue:#1c2833;
+    --gold-color:#A78E63;
 
 }
 
@@ -16,7 +21,7 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
-    --foreground: #ededed;
+    --foreground: #ededed;  
   }
 }
 
@@ -35,11 +40,16 @@ blockquote {
     font-style: italic;
     line-height: 1.2;
 }
-  h1{
-        font-size: 64px !important;
-    }
-    body ,.button{
+h1{
+    font-size: 64px !important;
+}
+body ,.button{
     font-family: var(--font-sans);
-      line-height: 1.2;
-      font-weight: 400;
+    line-height: 1.2;
+    font-weight: 400;
+}
+.container{
+  max-width:1220px;
+  margin: 0 auto;
+  width: 100%;
 }
