@@ -41,7 +41,7 @@ export default function Header() {
   }, []);
 
   return (
-    <footer className="border-b shadow-sm bg-black">
+    <footer className="border-b shadow-sm bg-(--dark-blue) py-14">
         <FooterMenu data={footer} logo={logo}/>
     </footer>
   );
